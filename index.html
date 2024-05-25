@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <title>ToDo</title>
+</head>
+
+<body>
+
+  <section class="todo">
+    <div class="container">
+      <div class="todo__inner">
+        <div class="high__blog">
+          <h1 class="title">High</h1>
+          <form class="add-task">
+            <input type="text" class="input" id="high-input" placeholder="Добавить задачу">
+            <a href="#" type='submit' class="btn-add">
+              <img class="logo__img" src="img/plus.png" alt="картинка" />
+            </a>
+          </form>
+          <div class="todosListHigh">
+            <!-- <li class="item">
+              <label class="item-label">
+                <div class="check"></div>
+                <span class="item-text">text</span>
+                <img class="close"
+                  src="img/close.png">
+              </label>
+            </li> -->
+          </div>
+
+        </div>
+
+        <div class="low__blog">
+          <h1 class="title">Low</h1>
+          <form class="add-task">
+            <input type="text" class="input" id="low-input" placeholder="Добавить задачу">
+            <a href="#" type='submit' class="btn-add">
+              <img class="logo__img" src="img/plus.png" alt="картинка" />
+            </a>
+          </form>
+          <div class="todoslistLow">
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <script type="module" src="script.js"></script>
+</body>
+
+</html>
